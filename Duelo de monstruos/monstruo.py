@@ -2,9 +2,9 @@
 class Monstruo:
     def __init__(self, nombre, tipo, p_ataque):
 
-        self.nombre = nombre
-        self.tipo = tipo
-        self.ataque = p_ataque
+        self.__nombre = nombre
+        self.__tipo = tipo
+        self.__ataque = p_ataque
     
     def get_info(self):
 

@@ -11,4 +11,5 @@ jugador_2 = jugador_2.Jugador2(nombre)
 
 jugador_2.get_info()
 
-print(f"Cada jugador comienza con un total de 40 cartas y un total de 4000 puntos de vida.")
+print(f"Cada jugador comienza con un total de 40 cartas y un total de 4000 puntos de vida.\n")
+
