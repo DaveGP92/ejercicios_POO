@@ -8,5 +8,7 @@ class MonstruoFuego(monstruo.Monstruo):
 
 monstruo_1_fuego = MonstruoFuego("Dragón fuego", "Fuego", 1200)
 
-monstruo_1_fuego.get_info()
-monstruo_1_fuego.atacar()
+monstruo_2_fuego = MonstruoFuego("Diablo", "Fuego", 1600)
+
+
+

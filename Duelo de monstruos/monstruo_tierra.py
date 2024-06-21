@@ -7,5 +7,5 @@ class MonstruoTierra(monstruo.Monstruo):
 
 monstruo_1_tierra = MonstruoTierra("Dragón tierra", "Tierra", 1150)
 
-monstruo_1_tierra.get_info()
-monstruo_1_tierra.atacar()
+monstruo_2_tierra = MonstruoTierra("Topo", "Tierra", 1480)
+

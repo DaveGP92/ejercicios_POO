@@ -7,5 +7,4 @@ class MonstruoAgua(monstruo.Monstruo):
 
 monstruo_1_agua = MonstruoAgua("Dragón agua", "Agua", 1450)
 
-monstruo_1_agua.get_info()
-monstruo_1_agua.atacar()
+monstruo_2_agua = MonstruoAgua("Serpiente", "Agua", 1300)

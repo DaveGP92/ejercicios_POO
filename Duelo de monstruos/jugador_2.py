@@ -12,6 +12,4 @@ class Jugador2(jugador.Jugador):
         print(f"Equipo: {self.equipo}")
 
 
-jugador_2 = Jugador2("Goku")
 
-jugador_2.get_info()

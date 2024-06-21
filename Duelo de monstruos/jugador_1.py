@@ -13,7 +13,3 @@ class Jugador1(jugador.Jugador):
 
 
 
-
-jugador_1 = Jugador1("Dave")
-
-jugador_1.get_info()

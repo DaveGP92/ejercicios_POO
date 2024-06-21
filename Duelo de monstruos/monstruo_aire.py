@@ -7,5 +7,4 @@ class MonstruoAire(monstruo.Monstruo):
 
 monstruo_1_aire = MonstruoAire("Dragón aire", "aire", 1250)
 
-monstruo_1_aire.get_info()
-monstruo_1_aire.atacar()
+monstruo_2_aire = MonstruoAire("Águila", "aire", 1525)
