@@ -13,3 +13,7 @@ jugador_2.get_info()
 
 print(f"Cada jugador comienza con un total de 40 cartas y un total de 4000 puntos de vida.\n")
 
+accion = jugador_1.sel_accion()()
+print(accion)
+
+
