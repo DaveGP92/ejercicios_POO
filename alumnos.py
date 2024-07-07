@@ -9,6 +9,7 @@ class Estudiante:
         self.apellidos = apellidos
         self.sem = semestre
         self.materias = []
+
     #creamos métodos de la clase
     def presentarse(self):
         print(f"Hola, me llamo {self.nombre} {self.apellidos} y estoy en {self.sem} grado. Y matriculé {self.materias}")
@@ -64,6 +65,9 @@ estudiante_01 = Estudiante("Juan Carlos", "Restrepo Jiménez", 6)
 estudiante_02 = Estudiante("María", "Vélez Ramos", 7)
 
 estudiante_03 = Estudiante("Jhon Everth", 'Sánchez Pérez', 7)
+
+estudiante_01.matricular_asignatura()
+estudiante_01.cancelar_asignatura()
 
 
 #Cada estudiante tiene tres métodos: presentarse(), matricular_asignatura(), cancelar_asignatura()
